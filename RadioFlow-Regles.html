@@ -1,71 +1,218 @@
-POLITIQUE DE CONFIDENTIALITÉ - RADIO FLOW
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de Confidentialité - Radio Flow</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+    color: #333;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #667eea;
+  }
+  header h1 {
+    font-size: 2.2em;
+    color: #667eea;
+    margin-bottom: 10px;
+  }
+  header .app-name {
+    font-size: 1.5em;
+    color: #764ba2;
+    font-weight: bold;
+  }
+  header .date {
+    color: #888;
+    margin-top: 10px;
+    font-size: 0.95em;
+  }
+  .section {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #f8f9ff;
+    border-radius: 12px;
+    border-left: 5px solid #667eea;
+    transition: transform 0.2s;
+  }
+  .section:hover {
+    transform: translateX(5px);
+  }
+  .section h2 {
+    color: #667eea;
+    font-size: 1.3em;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section h2 .icon {
+    font-size: 1.4em;
+  }
+  .section p, .section li {
+    line-height: 1.7;
+    color: #555;
+    font-size: 1em;
+  }
+  .section ul {
+    margin: 10px 0 10px 25px;
+  }
+  .section ul li {
+    margin-bottom: 6px;
+  }
+  .highlight {
+    background: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #4caf50;
+    margin: 10px 0;
+  }
+  .contact-box {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .contact-box a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .contact-box a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.9em;
+  }
+  @media (max-width: 600px) {
+    .container { padding: 25px; }
+    header h1 { font-size: 1.6em; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
 
-Dernière mise à jour : 24 août 2026
+  <header>
+    <h1>📜 POLITIQUE DE CONFIDENTIALITÉ</h1>
+    <div class="app-name">📻 RADIO FLOW</div>
+    <div class="date">Dernière mise à jour : 24 août 2026</div>
+  </header>
 
-1. INTRODUCTION
+  <div class="section">
+    <h2><span class="icon">🛡️</span> 1. Introduction</h2>
+    <p>Radio Flow ("l'Application") respecte votre vie privée et s'engage à protéger vos données personnelles. Cette politique explique comment nous collectons, utilisons et protégeons vos informations.</p>
+  </div>
 
-Radio Flow ("l'Application") respecte votre vie privée et s'engage à protéger vos données personnelles. Cette politique explique comment nous collectons, utilisons et protégeons vos informations.
+  <div class="section">
+    <h2><span class="icon"></span> 2. Collecte des Données</h2>
+    <p>L'Application Radio Flow ne collecte <strong>PAS</strong> de données personnelles identifiables. Nous ne demandons pas :</p>
+    <ul>
+      <li>Votre nom</li>
+      <li>Votre adresse email</li>
+      <li>Votre numéro de téléphone</li>
+      <li>Votre localisation précise</li>
+    </ul>
+  </div>
 
-2. COLLECTE DES DONNÉES
+  <div class="section">
+    <h2><span class="icon">⚙️</span> 3. Données Techniques Collectées</h2>
+    <p>L'application peut collecter automatiquement certaines informations techniques non personnelles :</p>
+    <ul>
+      <li>Type d'appareil et version d'Android</li>
+      <li>Adresse IP (pour la détection automatique du pays)</li>
+      <li>Données d'utilisation (stations écoutées, durée d'écoute)</li>
+      <li>Logs de crash (pour améliorer la stabilité)</li>
+    </ul>
+    <p>Ces données sont anonymes et utilisées uniquement pour :</p>
+    <ul>
+      <li>Améliorer l'expérience utilisateur</li>
+      <li>Corriger les bugs et problèmes techniques</li>
+      <li>Comprendre les préférences des utilisateurs</li>
+    </ul>
+  </div>
 
-L'Application Radio Flow ne collecte PAS de données personnelles identifiables. Nous ne demandons pas :
-- Votre nom
-- Votre adresse email
-- Votre numéro de téléphone
-- Votre localisation précise
+  <div class="section">
+    <h2><span class="icon">🔑</span> 4. Permissions Utilisées</h2>
+    <ul>
+      <li><strong>INTERNET</strong> — Pour streamer les radios en ligne</li>
+      <li><strong>WAKE_LOCK</strong> — Pour maintenir l'app active pendant la lecture</li>
+      <li><strong>FOREGROUND_SERVICE</strong> — Pour la lecture en arrière-plan</li>
+      <li><strong>RECEIVE_BOOT_COMPLETED</strong> — Pour le minuteur de sommeil</li>
+    </ul>
+  </div>
 
-3. DONNÉES TECHNIQUES COLLECTÉES
+  <div class="section">
+    <h2><span class="icon">🔒</span> 5. Partage des Données</h2>
+    <div class="highlight">
+      Nous ne vendons, ne louons et ne partageons <strong>AUCUNE</strong> donnée personnelle avec des tiers.
+    </div>
+    <p>Les données techniques anonymes peuvent être utilisées avec nos fournisseurs de services (hébergement, analytics).</p>
+  </div>
 
-L'application peut collecter automatiquement certaines informations techniques non personnelles :
-- Type d'appareil et version d'Android
-- Adresse IP (pour la détection automatique du pays)
-- Données d'utilisation (stations écoutées, durée d'écoute)
-- Logs de crash (pour améliorer la stabilité)
+  <div class="section">
+    <h2><span class="icon">🔐</span> 6. Sécurité</h2>
+    <p>Nous mettons en œuvre des mesures de sécurité techniques pour protéger vos données contre l'accès non autorisé, la modification ou la destruction.</p>
+  </div>
 
-Ces données sont anonymes et utilisées uniquement pour :
-- Améliorer l'expérience utilisateur
-- Corriger les bugs et problèmes techniques
-- Comprendre les préférences des utilisateurs
+  <div class="section">
+    <h2><span class="icon">👤</span> 7. Droits des Utilisateurs</h2>
+    <p>Conformément au RGPD, vous avez le droit :</p>
+    <ul>
+      <li>D'accéder à vos données</li>
+      <li>De rectifier vos données</li>
+      <li>De supprimer vos données</li>
+      <li>De limiter le traitement de vos données</li>
+    </ul>
+    <p>Pour exercer ces droits, contactez-nous à : <strong>privacy@radioflow.app</strong></p>
+  </div>
 
-4. PERMISSIONS UTILISÉES
+  <div class="section">
+    <h2><span class="icon">👶</span> 8. Enfants</h2>
+    <p>L'application ne s'adresse pas aux enfants de moins de 13 ans. Nous ne collectons pas sciemment des données personnelles d'enfants.</p>
+  </div>
 
-L'application utilise les permissions suivantes :
-- INTERNET : Pour streamer les radios en ligne
-- WAKE_LOCK : Pour maintenir l'app active pendant la lecture
-- FOREGROUND_SERVICE : Pour la lecture en arrière-plan
-- RECEIVE_BOOT_COMPLETED : Pour le minuteur de sommeil
+  <div class="section">
+    <h2><span class="icon">🔄</span> 9. Modifications</h2>
+    <p>Nous pouvons mettre à jour cette politique de confidentialité. Les modifications seront publiées dans l'application et sur cette page.</p>
+  </div>
 
-5. PARTAGE DES DONNÉES
+  <div class="section">
+    <h2><span class="icon">✅</span> 10. Consentement</h2>
+    <p>En utilisant l'Application Radio Flow, vous consentez à cette politique de confidentialité.</p>
+  </div>
 
-Nous ne vendons, ne louons et ne partageons AUCUNE donnée personnelle avec des tiers. Les données techniques anonymes peuvent être utilisées avec nos fournisseurs de services (hébergement, analytics).
+  <div class="contact-box">
+    <h2 style="color:white; margin-bottom:15px;">📧 Contact</h2>
+    <p>Pour toute question concernant cette politique de confidentialité :</p>
+    <p style="margin-top:10px;"><a href="mailto:privacy@radioflow.app">privacy@radioflow.app</a></p>
+  </div>
 
-6. SÉCURITÉ
+  <footer>
+    © 2026 Radio Flow — Tous droits réservés
+  </footer>
 
-Nous mettons en œuvre des mesures de sécurité techniques pour protéger vos données contre l'accès non autorisé, la modification ou la destruction.
-
-7. DROITS DES UTILISATEURS
-
-Conformément au RGPD, vous avez le droit :
-- D'accéder à vos données
-- De rectifier vos données
-- De supprimer vos données
-- De limiter le traitement de vos données
-
-Pour exercer ces droits, contactez-nous à : privacy@radioflow.app
-
-8. ENFANTS
-
-L'application ne s'adresse pas aux enfants de moins de 13 ans. Nous ne collectons pas sciemment des données personnelles d'enfants.
-
-9. MODIFICATIONS
-
-Nous pouvons mettre à jour cette politique de confidentialité. Les modifications seront publiées dans l'application et sur cette page.
-
-10. CONTACT
-
-Pour toute question concernant cette politique de confidentialité, contactez-nous à :
-Email : privacy@radioflow.app
-
-11. CONSENTEMENT
-
-En utilisant l'Application Radio Flow, vous consentez à cette politique de confidentialité.
+</div>
+</body>
+</html>
