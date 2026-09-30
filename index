@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - RadarZen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(180deg, #0B1622 0%, #05090E 100%);
+            color: #E0E6ED;
+            line-height: 1.7;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.10);
+            border-radius: 20px;
+            padding: 40px 30px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+        }
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            background: rgba(105, 240, 174, 0.12);
+            border: 1px solid rgba(105, 240, 174, 0.30);
+            border-radius: 18px;
+            margin-bottom: 15px;
+            font-size: 36px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #FFFFFF;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        .app-name {
+            color: #69F0AE;
+        }
+        .update-date {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.50);
+        }
+        h2 {
+            font-size: 20px;
+            color: #69F0AE;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 16px;
+            color: #FFAB40;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        p {
+            margin-bottom: 12px;
+            color: rgba(224, 230, 237, 0.85);
+            font-size: 15px;
+        }
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: rgba(224, 230, 237, 0.85);
+            font-size: 15px;
+        }
+        .highlight-box {
+            background: rgba(105, 240, 174, 0.08);
+            border-left: 4px solid #69F0AE;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .warning-box {
+            background: rgba(255, 171, 64, 0.08);
+            border-left: 4px solid #FFAB40;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th {
+            background: rgba(105, 240, 174, 0.15);
+            color: #69F0AE;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            color: rgba(224, 230, 237, 0.85);
+        }
+        tr:hover td {
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .contact-box {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        a {
+            color: #69F0AE;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.10);
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.40);
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">📡</div>
+            <h1>Politique de confidentialité</h1>
+            <p style="font-size: 18px; color: #FFFFFF;">Application <span class="app-name">RadarZen</span></p>
+            <p class="update-date">Dernière mise à jour : 1er octobre 2026</p>
+        </header>
+
+        <div class="highlight-box">
+            <p style="margin: 0;"><strong>🔒 Notre engagement :</strong> RadarZen respecte votre vie privée. Nous ne vendons <strong>JAMAIS</strong> vos données à des tiers. Votre position GPS est traitée localement sur votre appareil et n'est jamais stockée sur nos serveurs.</p>
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>RadarZen est une application d'aide à la conduite qui vous alerte de la présence de radars et de dangers routiers signalés par la communauté. Cette politique de confidentialité explique quelles données nous collectons, pourquoi, et comment nous les protégeons.</p>
+        <p>En utilisant RadarZen, vous acceptez les termes de cette politique de confidentialité.</p>
+
+        <h2>2. Données collectées</h2>
+
+        <h3>2.1 Données de localisation (GPS)</h3>
+        <ul>
+            <li><strong>Quoi :</strong> Votre position GPS en temps réel (latitude, longitude, vitesse, cap)</li>
+            <li><strong>Pourquoi :</strong> Calculer votre vitesse, détecter les radars à proximité et vous alerter à temps</li>
+            <li><strong>Stockage :</strong> Traitée <strong>uniquement localement</strong> sur votre appareil. Votre position n'est JAMAIS envoyée sur nos serveurs.</li>
+            <li><strong>Durée :</strong> Uniquement pendant que le GPS est actif dans l'application</li>
+        </ul>
+
+        <h3>2.2 Signalements communautaires</h3>
+        <ul>
+            <li><strong>Quoi :</strong> Position GPS et type de danger signalé (accident, obstacle, animal, travaux, autre)</li>
+            <li><strong>Pourquoi :</strong> Informer les autres conducteurs des dangers en temps réel</li>
+            <li><strong>Stockage :</strong> Google Firebase Firestore</li>
+            <li><strong>Durée :</strong> Suppression automatique après <strong>60 minutes</strong></li>
+            <li><strong>Anonymat :</strong> Aucun identifiant utilisateur n'est associé aux signalements</li>
+        </ul>
+
+        <h3>2.3 Préférences de l'application</h3>
+        <ul>
+            <li><strong>Quoi :</strong> Réglages (voix activée/désactivée, bip sonore, distance d'anticipation)</li>
+            <li><strong>Pourquoi :</strong> Mémoriser vos préférences entre les sessions</li>
+            <li><strong>Stockage :</strong> Uniquement sur votre appareil (mémoire locale)</li>
+        </ul>
+
+        <h2>3. Données NON collectées</h2>
+        <div class="highlight-box">
+            <p style="margin: 0;">RadarZen ne collecte <strong>PAS</strong> :</p>
+            <ul style="margin-top: 10px;">
+                <li>❌ Votre nom, email ou numéro de téléphone</li>
+                <li>❌ Votre historique de trajets</li>
+                <li>❌ Vos contacts ou photos</li>
+                <li>❌ Des données publicitaires</li>
+                <li>❌ Votre position quand l'application est fermée</li>
+            </ul>
+        </div>
+
+        <h2>4. Permissions demandées</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Pourquoi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>📍 Localisation précise (GPS)</td>
+                    <td>Détecter les radars à proximité et calculer votre vitesse</td>
+                </tr>
+                <tr>
+                    <td>🌐 Internet</td>
+                    <td>Recevoir et envoyer les signalements communautaires</td>
+                </tr>
+                <tr>
+                    <td>⚙️ Service en arrière-plan</td>
+                    <td>Continuer à vous alerter quand l'écran est éteint</td>
+                </tr>
+                <tr>
+                    <td>🔔 Notifications</td>
+                    <td>Vous alerter des radars et dangers détectés</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>5. Partage des données</h2>
+        <p>Nous ne vendons, ne louons et ne partageons <strong>JAMAIS</strong> vos données personnelles avec des tiers à des fins commerciales.</p>
+        <p>Les seules données partagées sont les <strong>signalements communautaires anonymes</strong> (position + type de danger), stockés via :</p>
+        <ul>
+            <li><strong>Google Firebase Firestore</strong> — service de base de données sécurisé de Google</li>
+        </ul>
+        <p>Pour en savoir plus sur la confidentialité chez Google : <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+
+        <h2>6. Conservation des données</h2>
+        <ul>
+            <li><strong>Position GPS :</strong> Non conservée (traitement en temps réel uniquement)</li>
+            <li><strong>Signalements :</strong> Supprimés automatiquement après 60 minutes</li>
+            <li><strong>Préférences :</strong> Conservées sur votre appareil jusqu'à désinstallation</li>
+        </ul>
+
+        <h2>7. Sécurité</h2>
+        <p>Nous mettons en œuvre des mesures de sécurité adaptées :</p>
+        <ul>
+            <li>🔒 Communications chiffrées (HTTPS)</li>
+            <li>🔒 Base de données Firebase avec accès restreint</li>
+            <li>🔒 Aucune donnée personnelle identifiable stockée</li>
+            <li>🔒 Suppression automatique des données temporaires</li>
+        </ul>
+
+        <h2>8. Vos droits (RGPD)</h2>
+        <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+        <ul>
+            <li>✅ <strong>Droit d'accès</strong> : savoir quelles données sont traitées</li>
+            <li>✅ <strong>Droit de rectification</strong> : corriger vos données</li>
+            <li>✅ <strong>Droit à l'effacement</strong> : supprimer vos données</li>
+            <li>✅ <strong>Droit à la portabilité</strong> : récupérer vos données</li>
+            <li>✅ <strong>Droit d'opposition</strong> : refuser le traitement</li>
+        </ul>
+        <p>💡 <strong>En pratique :</strong> Comme RadarZen ne stocke aucune donnée personnelle vous concernant, vous pouvez simplement désinstaller l'application pour supprimer toutes les données locales. Les signalements anonymes expirent automatiquement après 60 minutes.</p>
+        <p>Pour toute demande, contactez-nous à l'adresse indiquée dans la section Contact.</p>
+
+        <h2>9. Mineurs</h2>
+        <p>RadarZen est destiné aux conducteurs et n'est pas conçu pour les enfants de moins de 13 ans. Nous ne collectons pas sciemment de données auprès de mineurs.</p>
+
+        <h2>10. Modifications de cette politique</h2>
+        <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour. Nous vous recommandons de consulter cette page périodiquement.</p>
+
+        <h2>11. Contact</h2>
+        <div class="contact-box">
+            <p style="margin-bottom: 8px;">Pour toute question concernant cette politique de confidentialité ou l'application RadarZen :</p>
+            <p style="margin: 0;">📧 Email : <a href="mailto:mikefri.app@gmail.com">mikefri.app@gmail.com</a></p>
+        </div>
+
+        <footer>
+            <p>© 2026 RadarZen — Tous droits réservés</p>
+            <p style="margin-top: 8px;">Cette politique de confidentialité est conforme au RGPD et aux exigences de Google Play.</p>
+        </footer>
+    </div>
+</body>
+</html>
